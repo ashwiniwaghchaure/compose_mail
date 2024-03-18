@@ -6,13 +6,13 @@ import org.testng.ITestResult;
 
 import com.aventstack.extentreports.Status;
 
-
 import base.BaseTest;
 import pages.BasePage;
 
+
 public class MyListener extends BaseTest implements ITestListener {
 	
-	BasePage page = new BasePage(null);
+	BasePage page = new BasePage(driver);
 
 	public void onTestStart(ITestResult result) {
 		test= report.createTest(result.getName());		
