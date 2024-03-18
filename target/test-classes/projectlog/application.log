@@ -66,3 +66,31 @@
 2024-03-18 18:34:06,845 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
 2024-03-18 18:34:20,348 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
 2024-03-18 18:34:20,872  INFO [main] InboxPage:61 - Fail
+2024-03-18 18:41:36,160 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 18:41:36,730  INFO [main] InboxPage:61 - Fail
+2024-03-18 19:52:28,860 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 19:53:04,798 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 19:53:47,464 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 19:54:24,126 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 19:54:59,106 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:01:30,152 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:01:45,480 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:02:25,641 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:02:38,289 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:12:41,766 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:12:55,965 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:13:16,563 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:13:23,372  INFO [main] BaseTest:68 - Mail saved as a draft
+2024-03-18 20:13:36,649 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:14:00,223 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:23:56,572 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:34:37,275 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:35:27,859 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:37:38,324 DEBUG [main] InboxPage:41 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:40:51,714 DEBUG [main] InboxPage:42 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:47:15,560 DEBUG [main] InboxPage:42 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:47:28,727 DEBUG [main] InboxPage:42 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:47:48,480 DEBUG [main] InboxPage:42 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:47:55,700  INFO [main] BaseTest:68 - Mail saved as a draft
+2024-03-18 20:48:09,055 DEBUG [main] InboxPage:42 - Current title is: Inbox - aashutestemail@gmail.com - Gmail
+2024-03-18 20:48:21,174 DEBUG [main] InboxPage:42 - Current title is: Inbox - aashutestemail@gmail.com - Gmail

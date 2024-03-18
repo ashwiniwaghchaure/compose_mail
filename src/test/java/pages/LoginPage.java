@@ -28,14 +28,17 @@ public class LoginPage extends BasePage {
 
 	public void setEmail(String emailId) {
 		driver.findElement(email).sendKeys(emailId);
+
 	}
 
 	public void setPassword(String passwordText) {
 
 		driver.findElement(password).sendKeys(new String(Base64.getDecoder().decode(passwordText)));
+
 	}
 
 	public void clickOnNextButton() {
+
 		try {
 			driver.findElement(nextButton).click();
 		} catch (StaleElementReferenceException e) {

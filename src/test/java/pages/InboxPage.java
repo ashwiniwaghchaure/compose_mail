@@ -3,6 +3,7 @@ package pages;
 import static org.testng.Assert.assertTrue;
 
 import org.apache.log4j.Logger;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 
 import org.openqa.selenium.WebDriver;
@@ -58,10 +59,10 @@ public class InboxPage extends BasePage {
 	}
 
 	public void enterValidRecepientEmailid() {
-		log.info("Fail");
+
 		WebElement recipientElement = wait.until(ExpectedConditions.elementToBeClickable(recipients));
 		actionClick(recipientElement);
-		sendKeys(driver.findElement(toFieldEmailInput), "ajitthakare123@gmail.com");
+		sendKeys(driver.findElement(toFieldEmailInput), "anshuwagh@gmail.com");
 	}
 
 	public void enterSubject() {
@@ -76,12 +77,13 @@ public class InboxPage extends BasePage {
 		bodyElement.click();
 		try {
 			Thread.sleep(5000);
-			bodyElement.sendKeys("Hallo all see you soon...");
+			bodyElement.sendKeys("Hello all see you soon...");
 		} catch (InterruptedException e) {
 			System.out.println("Element still not interactable. Investigate further.");
 			e.printStackTrace();
 		}
 
+		
 	}
 
 	public void clickSendBtn() {
@@ -100,5 +102,18 @@ public class InboxPage extends BasePage {
 		System.out.println("Is element enabled: " + sendErrorElement.isEnabled());
 		return (sendErrorElement.getText());
 
+	}
+
+	public void enterInvalidRecepientEmailid() {
+		sendKeys(driver.findElement(toFieldEmailInput), "aswini123");
+
+	}
+
+	public String invalidEmailIdError() {
+		wait.until(ExpectedConditions.alertIsPresent());
+		Alert alert = driver.switchTo().alert();
+		String invalidEmailError = alert.getText();
+		alert.accept();
+		return invalidEmailError;
 	}
 }

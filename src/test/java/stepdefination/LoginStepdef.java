@@ -9,7 +9,7 @@ public class LoginStepdef extends BaseTest {
 	@Given("user is on login page")
 	public void openLoginPage() {
 		LoginStepdef.setup();
-		
+
 	}
 
 	@When("user enters email as {string}")
@@ -22,7 +22,7 @@ public class LoginStepdef extends BaseTest {
 		loginPage.setPassword(passwordText);
 	}
 
-	@When("click on Next button")
+	@When("user click on Next button")
 	public void click_on_next_button() {
 		loginPage.clickOnNextButton();
 	}

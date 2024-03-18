@@ -18,15 +18,15 @@ import pages.LoginPage;
 public class BaseTest {
 
 	public static WebDriver driver;
-	public static ExtentReports report =null;
-	public static ExtentSparkReporter spark=null;
-	public static ExtentTest test=null;
-	
+	public static ExtentReports report = null;
+	public static ExtentSparkReporter spark = null;
+	public static ExtentTest test = null;
+
 	public static LoginPage loginPage;
 	public static InboxPage inboxPage;
 
 	public Logger log = Logger.getLogger(BaseTest.class);
-	
+
 	public static FileInputStream fis = null;
 
 	public static void setup() {
@@ -34,7 +34,7 @@ public class BaseTest {
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 		driver.get(readproperty("url"));
 		loginPage = new LoginPage(driver);
 		inboxPage = new InboxPage(driver);
@@ -52,10 +52,10 @@ public class BaseTest {
 	}
 
 	public void reportInit() {
-		report= new ExtentReports();
-		spark = new ExtentSparkReporter(System.getProperty("user.dir")+"/target/ExtentReport.html");
+		report = new ExtentReports();
+		spark = new ExtentSparkReporter(System.getProperty("user.dir") + "/target/ExtentReport.html");
 		report.attachReporter(spark);
-		
+
 	}
-	
+
 }
